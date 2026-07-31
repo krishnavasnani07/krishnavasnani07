@@ -6,7 +6,7 @@
     <!-- Left Pane: ASCII Art -->
     <td valign="top" width="40%" align="center" style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px;">
       <br/>
-      <img src="assets/profile_ascii.svg" width="100%" alt="Krishna Vasnani ASCII Art" style="border-radius: 4px; display: block;"/>
+      <img src="assets/profile.jpg" width="100%" alt="Krishna Vasnani" style="border-radius: 4px; display: block;"/>
       <br/>
     </td>
     <!-- Right Pane: Terminal Information -->
