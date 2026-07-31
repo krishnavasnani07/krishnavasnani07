@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="70" viewBox="0 0 800 70">
+  <style>
+    .font-base {
+      font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .prompt-user { fill: #5af78e; font-weight: bold; }
+    .prompt-colon { fill: #ffffff; }
+    .prompt-dir { fill: #57c7ff; }
+    .prompt-sign { fill: #ffffff; font-weight: bold; }
+    .command { fill: #f1f1f0; }
+    .text-normal { fill: #c9d1d9; }
+    .dir-name { fill: #57c7ff; font-weight: bold; }
+    .tree-line { fill: #444c56; }
+    .tech-label { fill: #ffb86c; font-weight: bold; }
+    .link-label { fill: #8b949e; }
+    .link-url { fill: #57c7ff; text-decoration: none; }
+    .conf-header { fill: #ff79c6; font-weight: bold; }
+    .git-branch { fill: #ff79c6; }
+    .git-muted { fill: #8b949e; }
+    .git-modified { fill: #5af78e; }
+    .git-status-label { fill: #ffb86c; }
+    .cursor { fill: #5af78e; }
+  </style>
+  <g class="font-base">
+    <text x="10" y="22"><tspan class="prompt-user">krishna@portfolio</tspan><tspan class="prompt-colon">:</tspan><tspan class="prompt-dir">~</tspan><tspan class="prompt-sign">$</tspan> <tspan class="command">echo "Let's build something awesome."</tspan></text>
+    <text x="10" y="46"><tspan class="text-normal">Let's build something awesome. </tspan><tspan class="cursor">▮</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="540" viewBox="0 0 800 540">
+  <style>
+    .font-base {
+      font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .prompt-user { fill: #5af78e; font-weight: bold; }
+    .prompt-colon { fill: #ffffff; }
+    .prompt-dir { fill: #57c7ff; }
+    .prompt-sign { fill: #ffffff; font-weight: bold; }
+    .command { fill: #f1f1f0; }
+    .text-normal { fill: #c9d1d9; }
+    .dir-name { fill: #57c7ff; font-weight: bold; }
+    .tree-line { fill: #444c56; }
+    .tech-label { fill: #ffb86c; font-weight: bold; }
+    .link-label { fill: #8b949e; }
+    .link-url { fill: #57c7ff; text-decoration: none; }
+    .conf-header { fill: #ff79c6; font-weight: bold; }
+    .git-branch { fill: #ff79c6; }
+    .git-muted { fill: #8b949e; }
+    .git-modified { fill: #5af78e; }
+    .git-status-label { fill: #ffb86c; }
+    .cursor { fill: #5af78e; }
+  </style>
+  <g class="font-base">
+    <text x="10" y="22"><tspan class="prompt-user">krishna@portfolio</tspan><tspan class="prompt-colon">:</tspan><tspan class="prompt-dir">~</tspan><tspan class="prompt-sign">$</tspan> <tspan class="command">tree projects/ --level=2</tspan></text>
+    <text x="10" y="46"></text>
+    <text x="10" y="70"><tspan class="dir-name">projects/</tspan></text>
+    <text x="10" y="94"><tspan class="tree-line">├──</tspan> 📊 <tspan class="dir-name">n100-financial-intelligence-platform</tspan></text>
+    <text x="10" y="118"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;├──</tspan> <tspan class="text-normal">Ingests raw equity filings, runs 16 data quality rules, computes 50+ KPIs.</tspan></text>
+    <text x="10" y="142"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;├──</tspan> <tspan class="tech-label">Tech:</tspan> <tspan class="text-normal">Python • SQLite • Streamlit • Pandas • Pytest</tspan></text>
+    <text x="10" y="166"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;└──</tspan> <tspan class="link-label">Link:</tspan> <tspan class="link-url">github.com/krishnavasnani07/n100-financial-intelligence-platform</tspan></text>
+    <text x="10" y="190"><tspan class="tree-line">│</tspan></text>
+    <text x="10" y="214"><tspan class="tree-line">├──</tspan> 📈 <tspan class="dir-name">fundsight-mutual-fund-analytics</tspan></text>
+    <text x="10" y="238"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;├──</tspan> <tspan class="text-normal">High-performance mutual fund analytics database with transaction-safe ETL.</tspan></text>
+    <text x="10" y="262"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;├──</tspan> <tspan class="tech-label">Tech:</tspan> <tspan class="text-normal">Python • SQLite • Streamlit • FastAPI • Pandas</tspan></text>
+    <text x="10" y="286"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;└──</tspan> <tspan class="link-label">Link:</tspan> <tspan class="link-url">github.com/krishnavasnani07/fundsight-mutual-fund-analytics</tspan></text>
+    <text x="10" y="310"><tspan class="tree-line">│</tspan></text>
+    <text x="10" y="334"><tspan class="tree-line">├──</tspan> 👁️ <tspan class="dir-name">second-pair-of-eyes</tspan></text>
+    <text x="10" y="358"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;├──</tspan> <tspan class="text-normal">Edge TF.js detection &amp; Gemini Vision API cloud safety alerts.</tspan></text>
+    <text x="10" y="382"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;├──</tspan> <tspan class="tech-label">Tech:</tspan> <tspan class="text-normal">TensorFlow.js • Gemini API • FastAPI • Cloud Run</tspan></text>
+    <text x="10" y="406"><tspan class="tree-line">│&nbsp;&nbsp;&nbsp;└──</tspan> <tspan class="link-label">Link:</tspan> <tspan class="link-url">github.com/krishnavasnani07/second-pair-of-eyes</tspan></text>
+    <text x="10" y="430"><tspan class="tree-line">│</tspan></text>
+    <text x="10" y="454"><tspan class="tree-line">└──</tspan> 🎬 <tspan class="dir-name">CinAImatic</tspan></text>
+    <text x="10" y="478">&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="tree-line">├──</tspan> <tspan class="text-normal">Neural network recommendation engine with live training diagnostics.</tspan></text>
+    <text x="10" y="502">&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="tree-line">├──</tspan> <tspan class="tech-label">Tech:</tspan> <tspan class="text-normal">Python • FastAPI • Scikit-Learn • Groq API • Vite</tspan></text>
+    <text x="10" y="526">&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="tree-line">└──</tspan> <tspan class="link-label">Link:</tspan> <tspan class="link-url">github.com/krishnavasnani07/CinAImatic</tspan></text>
+  </g>
+</svg>

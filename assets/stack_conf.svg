@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <style>
+    .font-base {
+      font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .prompt-user { fill: #5af78e; font-weight: bold; }
+    .prompt-colon { fill: #ffffff; }
+    .prompt-dir { fill: #57c7ff; }
+    .prompt-sign { fill: #ffffff; font-weight: bold; }
+    .command { fill: #f1f1f0; }
+    .text-normal { fill: #c9d1d9; }
+    .dir-name { fill: #57c7ff; font-weight: bold; }
+    .tree-line { fill: #444c56; }
+    .tech-label { fill: #ffb86c; font-weight: bold; }
+    .link-label { fill: #8b949e; }
+    .link-url { fill: #57c7ff; text-decoration: none; }
+    .conf-header { fill: #ff79c6; font-weight: bold; }
+    .git-branch { fill: #ff79c6; }
+    .git-muted { fill: #8b949e; }
+    .git-modified { fill: #5af78e; }
+    .git-status-label { fill: #ffb86c; }
+    .cursor { fill: #5af78e; }
+  </style>
+  <g class="font-base">
+    <text x="10" y="22"><tspan class="prompt-user">krishna@portfolio</tspan><tspan class="prompt-colon">:</tspan><tspan class="prompt-dir">~</tspan><tspan class="prompt-sign">$</tspan> <tspan class="command">cat stack.conf</tspan></text>
+    <text x="10" y="46"></text>
+    <text x="10" y="70"><tspan class="conf-header">[Languages]</tspan></text>
+    <text x="10" y="94">&nbsp;&nbsp;<tspan class="tree-line">└──</tspan> <tspan class="text-normal">Python • C++ • JavaScript • SQL</tspan></text>
+    <text x="10" y="118"></text>
+    <text x="10" y="142"><tspan class="conf-header">[Backend &amp; Storage]</tspan></text>
+    <text x="10" y="166">&nbsp;&nbsp;<tspan class="tree-line">└──</tspan> <tspan class="text-normal">FastAPI • SQLite • Pandas • NumPy • WebSockets</tspan></text>
+    <text x="10" y="190"></text>
+    <text x="10" y="214"><tspan class="conf-header">[Frontend &amp; UI]</tspan></text>
+    <text x="10" y="238">&nbsp;&nbsp;<tspan class="tree-line">└──</tspan> <tspan class="text-normal">Streamlit • Vite • TailwindCSS • HTML/CSS</tspan></text>
+    <text x="10" y="262"></text>
+    <text x="10" y="286"><tspan class="conf-header">[AI &amp; Machine Learning]</tspan></text>
+    <text x="10" y="310">&nbsp;&nbsp;<tspan class="tree-line">└──</tspan> <tspan class="text-normal">Scikit-Learn • TensorFlow.js • Gemini API • Groq API</tspan></text>
+    <text x="10" y="334"></text>
+    <text x="10" y="358"><tspan class="conf-header">[Cloud &amp; DevOps]</tspan></text>
+    <text x="10" y="382">&nbsp;&nbsp;<tspan class="tree-line">└──</tspan> <tspan class="text-normal">Google Cloud Run • Docker • Git • Pytest</tspan></text>
+  </g>
+</svg>
