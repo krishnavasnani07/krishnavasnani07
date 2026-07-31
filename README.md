@@ -1,23 +1,6 @@
-<!-- Terminal Simulation Header -->
-<img src="assets/profile.jpg" align="left" width="320" style="margin-right: 25px; margin-bottom: 20px; border-radius: 4px; display: block;"/>
-
-<pre>
-<b>krishna@portfolio:~$</b> whoami
-
-<b>Name</b>.............. Krishna Vasnani
-<b>Role</b>.............. Software Engineer
-<b>Education</b>......... B.Tech CSE (Computer Science Engineering)
-<b>University</b>........ JECRC University
-<b>Location</b>.......... Jaipur, India
-
-<b>Status</b>............ Building | Learning | Shipping
-
-<b>Focus</b>............. AI • Backend • Data Engineering
-<b>Goal</b>.............. Building high-quality production software
-<b>Mission</b>........... Build stable software that solves real problems.
-</pre>
-
-<br clear="left"/>
+<p align="center">
+  <img src="assets/terminal_hero.png" width="100%" alt="Krishna Vasnani - Portfolio Terminal"/>
+</p>
 
 ---
 
