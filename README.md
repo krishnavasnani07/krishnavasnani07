@@ -4,82 +4,92 @@
 
 ---
 
-<pre>
-<b>krishna@portfolio:~$</b> tree projects/ --level=2
+<font face="monospace">
+<br/>
+<b>krishna@portfolio:~$</b>&nbsp;tree&nbsp;projects/&nbsp;--level=2<br/>
+<br/>
+<b>projects/</b><br/>
+├──&nbsp;📊&nbsp;<b>n100-financial-intelligence-platform</b><br/>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;Ingests&nbsp;raw&nbsp;equity&nbsp;filings,&nbsp;runs&nbsp;16&nbsp;data&nbsp;quality&nbsp;rules,&nbsp;computes&nbsp;50+&nbsp;KPIs.<br/>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;Tech:&nbsp;Python&nbsp;•&nbsp;SQLite&nbsp;•&nbsp;Streamlit&nbsp;•&nbsp;Pandas&nbsp;•&nbsp;Pytest<br/>
+│&nbsp;&nbsp;&nbsp;└──&nbsp;Link:&nbsp;<a href="https://github.com/krishnavasnani07/n100-financial-intelligence-platform">github.com/krishnavasnani07/n100-financial-intelligence-platform</a><br/>
+│<br/>
+├──&nbsp;📈&nbsp;<b>fundsight-mutual-fund-analytics</b><br/>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;High-performance&nbsp;mutual&nbsp;fund&nbsp;analytics&nbsp;database&nbsp;with&nbsp;transaction-safe&nbsp;ETL.<br/>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;Tech:&nbsp;Python&nbsp;•&nbsp;SQLite&nbsp;•&nbsp;Streamlit&nbsp;•&nbsp;FastAPI&nbsp;•&nbsp;Pandas<br/>
+│&nbsp;&nbsp;&nbsp;└──&nbsp;Link:&nbsp;<a href="https://github.com/krishnavasnani07/fundsight-mutual-fund-analytics">github.com/krishnavasnani07/fundsight-mutual-fund-analytics</a><br/>
+│<br/>
+├──&nbsp;👁️&nbsp;<b>second-pair-of-eyes</b><br/>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;Edge&nbsp;TF.js&nbsp;detection&nbsp;&amp;&nbsp;Gemini&nbsp;Vision&nbsp;API&nbsp;cloud&nbsp;safety&nbsp;alerts.<br/>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;Tech:&nbsp;TensorFlow.js&nbsp;•&nbsp;Gemini&nbsp;API&nbsp;•&nbsp;FastAPI&nbsp;•&nbsp;Cloud&nbsp;Run<br/>
+│&nbsp;&nbsp;&nbsp;└──&nbsp;Link:&nbsp;<a href="https://github.com/krishnavasnani07/second-pair-of-eyes">github.com/krishnavasnani07/second-pair-of-eyes</a><br/>
+│<br/>
+└──&nbsp;🎬&nbsp;<b>CinAImatic</b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├──&nbsp;Neural&nbsp;network&nbsp;recommendation&nbsp;engine&nbsp;with&nbsp;live&nbsp;training&nbsp;diagnostics.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├──&nbsp;Tech:&nbsp;Python&nbsp;•&nbsp;FastAPI&nbsp;•&nbsp;Scikit-Learn&nbsp;•&nbsp;Groq&nbsp;API&nbsp;•&nbsp;Vite<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;└──&nbsp;Link:&nbsp;<a href="https://github.com/krishnavasnani07/CinAImatic">github.com/krishnavasnani07/CinAImatic</a><br/>
 
-<b>projects/</b>
-├── 📊 <b>n100-financial-intelligence-platform</b>
-│   ├── Ingests raw equity filings, runs 16 data quality rules, computes 50+ KPIs.
-│   ├── Tech: Python • SQLite • Streamlit • Pandas • Pytest
-│   └── Link: <a href="https://github.com/krishnavasnani07/n100-financial-intelligence-platform">github.com/krishnavasnani07/n100-financial-intelligence-platform</a>
-│
-├── 📈 <b>fundsight-mutual-fund-analytics</b>
-│   ├── High-performance mutual fund analytics database with transaction-safe ETL.
-│   ├── Tech: Python • SQLite • Streamlit • FastAPI • Pandas
-│   └── Link: <a href="https://github.com/krishnavasnani07/fundsight-mutual-fund-analytics">github.com/krishnavasnani07/fundsight-mutual-fund-analytics</a>
-│
-├── 👁️ <b>second-pair-of-eyes</b>
-│   ├── Edge TF.js detection &amp; Gemini Vision API cloud safety alerts.
-│   ├── Tech: TensorFlow.js • Gemini API • FastAPI • Cloud Run
-│   └── Link: <a href="https://github.com/krishnavasnani07/second-pair-of-eyes">github.com/krishnavasnani07/second-pair-of-eyes</a>
-│
-└── 🎬 <b>CinAImatic</b>
-    ├── Neural network recommendation engine with live training diagnostics.
-    ├── Tech: Python • FastAPI • Scikit-Learn • Groq API • Vite
-    └── Link: <a href="https://github.com/krishnavasnani07/CinAImatic">github.com/krishnavasnani07/CinAImatic</a>
-</pre>
-
----
-
-<pre>
-<b>krishna@portfolio:~$</b> cat stack.conf
-
-<b>[Languages]</b>
-  └── Python • C++ • JavaScript • SQL
-
-<b>[Backend &amp; Storage]</b>
-  └── FastAPI • SQLite • Pandas • NumPy • WebSockets
-
-<b>[Frontend &amp; UI]</b>
-  └── Streamlit • Vite • TailwindCSS • HTML/CSS
-
-<b>[AI &amp; Machine Learning]</b>
-  └── Scikit-Learn • TensorFlow.js • Gemini API • Groq API
-
-<b>[Cloud &amp; DevOps]</b>
-  └── Google Cloud Run • Docker • Git • Pytest
-</pre>
+</font>
 
 ---
 
-<pre>
-<b>krishna@portfolio:~$</b> git status
+<font face="monospace">
+<br/>
+<b>krishna@portfolio:~$</b>&nbsp;cat&nbsp;stack.conf<br/>
+<br/>
+<b>[Languages]</b><br/>
+&nbsp;&nbsp;└──&nbsp;Python&nbsp;•&nbsp;C++&nbsp;•&nbsp;JavaScript&nbsp;•&nbsp;SQL<br/>
+<br/>
+<b>[Backend&nbsp;&amp;&nbsp;Storage]</b><br/>
+&nbsp;&nbsp;└──&nbsp;FastAPI&nbsp;•&nbsp;SQLite&nbsp;•&nbsp;Pandas&nbsp;•&nbsp;NumPy&nbsp;•&nbsp;WebSockets<br/>
+<br/>
+<b>[Frontend&nbsp;&amp;&nbsp;UI]</b><br/>
+&nbsp;&nbsp;└──&nbsp;Streamlit&nbsp;•&nbsp;Vite&nbsp;•&nbsp;TailwindCSS&nbsp;•&nbsp;HTML/CSS<br/>
+<br/>
+<b>[AI&nbsp;&amp;&nbsp;Machine&nbsp;Learning]</b><br/>
+&nbsp;&nbsp;└──&nbsp;Scikit-Learn&nbsp;•&nbsp;TensorFlow.js&nbsp;•&nbsp;Gemini&nbsp;API&nbsp;•&nbsp;Groq&nbsp;API<br/>
+<br/>
+<b>[Cloud&nbsp;&amp;&nbsp;DevOps]</b><br/>
+&nbsp;&nbsp;└──&nbsp;Google&nbsp;Cloud&nbsp;Run&nbsp;•&nbsp;Docker&nbsp;•&nbsp;Git&nbsp;•&nbsp;Pytest<br/>
 
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-
-	<span style="color: #2ea44f;">modified:   profile_assets/profile.jpg</span>
-	<span style="color: #2ea44f;">modified:   krishnavasnani07/README.md</span>
-
-Status: Building new intelligent systems... 🚀
-</pre>
-
----
-
-<pre>
-<b>krishna@portfolio:~$</b> connect --active
-
-<b>Email</b>............. <a href="mailto:krishnavasnani07@gmail.com">krishnavasnani07@gmail.com</a>
-<b>LinkedIn</b>.......... <a href="https://www.linkedin.com/in/krishna-vasnani-490334325">linkedin.com/in/krishna-vasnani-490334325</a>
-<b>GitHub</b>............ <a href="https://github.com/krishnavasnani07">github.com/krishnavasnani07</a>
-</pre>
+</font>
 
 ---
 
-<pre>
-<b>krishna@portfolio:~$</b> echo "Let's build something awesome."
-Let's build something awesome. ▮
-</pre>
+<font face="monospace">
+<br/>
+<b>krishna@portfolio:~$</b>&nbsp;git&nbsp;status<br/>
+<br/>
+On&nbsp;branch&nbsp;main<br/>
+Your&nbsp;branch&nbsp;is&nbsp;up&nbsp;to&nbsp;date&nbsp;with&nbsp;'origin/main'.<br/>
+<br/>
+Changes&nbsp;to&nbsp;be&nbsp;committed:<br/>
+&nbsp;&nbsp;(use&nbsp;"git&nbsp;restore&nbsp;--staged&nbsp;&lt;file&gt;..."&nbsp;to&nbsp;unstage)<br/>
+<br/>
+	<span style="color: #2ea44f;">modified:&nbsp;&nbsp;&nbsp;profile_assets/profile.jpg</span><br/>
+	<span style="color: #2ea44f;">modified:&nbsp;&nbsp;&nbsp;krishnavasnani07/README.md</span><br/>
+<br/>
+Status:&nbsp;Building&nbsp;new&nbsp;intelligent&nbsp;systems...&nbsp;🚀<br/>
+
+</font>
+
+---
+
+<font face="monospace">
+<br/>
+<b>krishna@portfolio:~$</b>&nbsp;connect&nbsp;--active<br/>
+<br/>
+<b>Email</b>.............&nbsp;<a href="mailto:krishnavasnani07@gmail.com">krishnavasnani07@gmail.com</a><br/>
+<b>LinkedIn</b>..........&nbsp;<a href="https://www.linkedin.com/in/krishna-vasnani-490334325">linkedin.com/in/krishna-vasnani-490334325</a><br/>
+<b>GitHub</b>............&nbsp;<a href="https://github.com/krishnavasnani07">github.com/krishnavasnani07</a><br/>
+
+</font>
+
+---
+
+<font face="monospace">
+<br/>
+<b>krishna@portfolio:~$</b>&nbsp;echo&nbsp;"Let's&nbsp;build&nbsp;something&nbsp;awesome."<br/>
+Let's&nbsp;build&nbsp;something&nbsp;awesome.&nbsp;▮<br/>
+
+</font>
