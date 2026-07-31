@@ -55,11 +55,11 @@
 
 <font face="monospace">
 <br/>
-<b style="color: #5af78e;">krishna@portfolio</b>:<b style="color: #57c7ff;">~</b><b>$</b>&nbsp;<span style="color: #f1f1f0;">git-activity&nbsp;--plot</span><br/>
+<b style="color: #5af78e;">krishna@portfolio</b>:<b style="color: #57c7ff;">~</b><b>$</b>&nbsp;<span style="color: #f1f1f0;">render-3d-city&nbsp;--glow</span><br/>
 <br/>
 </font>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=krishnavasnani07&bg_color=040608&color=c9d1d9&title_color=5af78e&line=57c7ff&point=ff79c6&area=true&area_color=0d3856&hide_border=true&custom_title=Git%20Contribution%20Activity" width="100%" alt="Contribution Activity Graph"/>
+  <img src="https://raw.githubusercontent.com/krishnavasnani07/krishnavasnani07/main/profile-3d-contrib/profile-night-rainbow.svg" width="80%" alt="3D Contribution City"/>
 </p>
 
 <p style="color: #30363d;" align="left">────────────────────────────────────────────────────────────────────────────────</p>
