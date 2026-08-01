@@ -102,9 +102,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/krishnavasnani07/krishnavasnani07/main/profile-3d-contrib/profile-night-rainbow.svg" width="80%" alt="3D Contribution City"/>
 </p>
-<p align="center" style="font-family: monospace; font-size: 11px; color: #8b949e; margin-top: -10px;">
-  ◀ <b>Jul 2025</b> (Start of Year) ─────────────────── Flow of Time ─────────────────── <b>Aug 2026</b> (End of Year) ▶
-</p>
 
 <p style="color: #30363d;" align="left">────────────────────────────────────────────────────────────────────────────────</p>
 
