@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <style>
+    .panel {
+      fill: #040608;
+      stroke: #30363d;
+      stroke-width: 1px;
+      rx: 8px;
+    }
+    .text-base {
+      font-family: 'Fira Code', Consolas, Monaco, monospace;
+      font-size: 13px;
+    }
+    .title {
+      fill: #5af78e;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .label {
+      fill: #c9d1d9;
+    }
+    .value {
+      fill: #ffffff;
+      font-weight: bold;
+    }
+    .icon {
+      fill: #57c7ff;
+    }
+    .progress-bg {
+      fill: #161b22;
+      rx: 3px;
+    }
+    .progress-fill-python {
+      fill: #3572A5;
+      rx: 3px;
+    }
+    .progress-fill-makefile {
+      fill: #427819;
+      rx: 3px;
+    }
+    .divider {
+      stroke: #30363d;
+      stroke-width: 1px;
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect x="2" y="2" width="796" height="216" class="panel" />
+
+  <g class="text-base" transform="translate(25, 25)">
+    <!-- LEFT COLUMN: GITHUB STATS -->
+    <g transform="translate(10, 5)">
+      <text x="0" y="15" class="title">krishnavasnani07@github</text>
+      <text x="0" y="32" fill="#8b949e">──────────────────────────</text>
+      
+      <!-- Stars -->
+      <g transform="translate(0, 52)">
+        <path class="icon" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z" transform="scale(1.1)"/>
+        <text x="25" y="13" class="label">Total Stars:</text>
+        <text x="145" y="13" class="value">1</text>
+      </g>
+
+      <!-- Commits -->
+      <g transform="translate(0, 80)">
+        <path class="icon" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.07a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.002 4.002 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" transform="scale(1.1)"/>
+        <text x="25" y="13" class="label">Total Commits:</text>
+        <text x="145" y="13" class="value">393</text>
+      </g>
+
+      <!-- PRs -->
+      <g transform="translate(0, 108)">
+        <path class="icon" d="M7.177 3.007L9.573.61a.75.75 0 011.06 0l2.396 2.397a.75.75 0 11-1.06 1.06l-1.121-1.12v5.18a3 3 0 01-3 3H7.072v1.5a3.002 3.002 0 11-1.5 0v-4.5a3 3 0 013-3h.778v-4.18L8.236 4.068a.75.75 0 01-1.06-1.061z" transform="scale(1.1)"/>
+        <text x="25" y="13" class="label">Total PRs:</text>
+        <text x="145" y="13" class="value">16</text>
+      </g>
+
+      <!-- Issues -->
+      <g transform="translate(0, 136)">
+        <path class="icon" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" transform="scale(1.1)"/>
+        <text x="25" y="13" class="label">Total Issues:</text>
+        <text x="145" y="13" class="value">0</text>
+      </g>
+
+      <!-- Contributed to -->
+      <g transform="translate(0, 164)">
+        <path class="icon" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z" transform="scale(1.1)"/>
+        <text x="25" y="13" class="label">Contributed To:</text>
+        <text x="145" y="13" class="value">6</text>
+      </g>
+    </g>
+
+    <!-- MIDDLE VERTICAL DIVIDER -->
+    <line x1="380" y1="10" x2="380" y2="175" class="divider" />
+
+    <!-- RIGHT COLUMN: TOP LANGUAGES -->
+    <g transform="translate(410, 5)">
+      <text x="0" y="15" class="title">Top Languages (System Config)</text>
+      <text x="0" y="32" fill="#8b949e">──────────────────────────</text>
+
+      <!-- Python -->
+      <g transform="translate(0, 52)">
+        <text x="0" y="13" class="label" font-weight="bold">Python</text>
+        <text x="290" y="13" class="value">99.66%</text>
+        <rect x="0" y="24" width="320" height="8" class="progress-bg" />
+        <rect x="0" y="24" width="318.9" height="8" class="progress-fill-python" />
+      </g>
+
+      <!-- Makefile -->
+      <g transform="translate(0, 108)">
+        <text x="0" y="13" class="label" font-weight="bold">Makefile</text>
+        <text x="290" y="13" class="value">0.34%</text>
+        <rect x="0" y="24" width="320" height="8" class="progress-bg" />
+        <rect x="0" y="24" width="1.1" height="8" class="progress-fill-makefile" />
+      </g>
+    </g>
+  </g>
+</svg>

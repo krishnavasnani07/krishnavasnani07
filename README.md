@@ -46,9 +46,7 @@
 <br/>
 </font>
 <p align="center">
-  <img src="https://github-readme-stats-one.vercel.app/api?username=krishnavasnani07&show_icons=true&bg_color=040608&title_color=5af78e&icon_color=57c7ff&text_color=c9d1d9&border_color=30363d" width="490" alt="GitHub Stats"/>
-  &nbsp;
-  <img src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=krishnavasnani07&layout=compact&bg_color=040608&title_color=5af78e&icon_color=57c7ff&text_color=c9d1d9&border_color=30363d" width="375" alt="Top Languages"/>
+  <img src="assets/neofetch_stats.svg" width="100%" alt="Neofetch Dashboard"/>
 </p>
 
 <p style="color: #30363d;" align="left">────────────────────────────────────────────────────────────────────────────────</p>
