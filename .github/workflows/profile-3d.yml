@@ -22,7 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           USERNAME: ${{ github.repository_owner }}
       - name: Post-process SVGs (Inject inclined timeline)
-        run: python scripts/postprocess_3d_svg.py
+        run: python scripts/timeline.py
       - name: Commit & Push
         run: |
           git config user.name "GitHub Action"
