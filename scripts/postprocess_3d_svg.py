@@ -9,13 +9,13 @@ def postprocess_svgs():
     timeline_group = """
   <!-- Custom Inclined Time Timeline -->
   <g id="time-timeline" style="font-family: 'Fira Code', Consolas, Monaco, monospace; font-size: 13px;">
-    <!-- Dashed guideline parallel to the grid -->
-    <line x1="80" y1="210" x2="1140" y2="820" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4" />
+    <!-- Dashed guideline parallel to the grid (offset 110px upwards) -->
+    <line x1="80" y1="100" x2="1140" y2="710" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4" />
     
     <!-- Inclined Text Labels -->
-    <text transform="translate(80, 200) rotate(29.9)" font-weight="bold" fill="#5af78e">◀ Jul 2025 (Start)</text>
-    <text transform="translate(560, 475) rotate(29.9)" fill="#8b949e">Flow of Time ──▶</text>
-    <text transform="translate(1000, 725) rotate(29.9)" font-weight="bold" fill="#ff79c6">Aug 2026 (End) ▶</text>
+    <text transform="translate(80, 90) rotate(29.9)" font-weight="bold" fill="#5af78e">◀ Jul 2025 (Start)</text>
+    <text transform="translate(560, 365) rotate(29.9)" fill="#8b949e">Flow of Time ──▶</text>
+    <text transform="translate(1000, 615) rotate(29.9)" font-weight="bold" fill="#ff79c6">Aug 2026 (End) ▶</text>
   </g>
 </svg>"""
 
