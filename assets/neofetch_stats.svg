@@ -63,34 +63,35 @@
       <g transform="translate(0, 80)">
         <path class="icon" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.07a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.002 4.002 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z" transform="scale(1.1)"/>
         <text x="25" y="13" class="label">Total Commits:</text>
-        <text x="145" y="13" class="value">393</text>
+        <text x="145" y="13" class="value">919</text>
       </g>
 
       <!-- PRs -->
       <g transform="translate(0, 108)">
         <path class="icon" d="M7.177 3.007L9.573.61a.75.75 0 011.06 0l2.396 2.397a.75.75 0 11-1.06 1.06l-1.121-1.12v5.18a3 3 0 01-3 3H7.072v1.5a3.002 3.002 0 11-1.5 0v-4.5a3 3 0 013-3h.778v-4.18L8.236 4.068a.75.75 0 01-1.06-1.061z" transform="scale(1.1)"/>
         <text x="25" y="13" class="label">Total PRs:</text>
-        <text x="145" y="13" class="value">16</text>
+        <text x="145" y="13" class="value">58</text>
       </g>
 
       <!-- Issues -->
       <g transform="translate(0, 136)">
         <path class="icon" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" transform="scale(1.1)"/>
         <text x="25" y="13" class="label">Total Issues:</text>
-        <text x="145" y="13" class="value">0</text>
+        <text x="145" y="13" class="value">78</text>
       </g>
 
       <!-- Contributed to -->
       <g transform="translate(0, 164)">
         <path class="icon" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z" transform="scale(1.1)"/>
         <text x="25" y="13" class="label">Contributed To:</text>
-        <text x="145" y="13" class="value">6</text>
+        <text x="145" y="13" class="value">24</text>
       </g>
     </g>
 
     <!-- MIDDLE VERTICAL DIVIDER -->
     <line x1="380" y1="10" x2="380" y2="175" class="divider" />
 
+    <!-- RIGHT COLUMN: TOP LANGUAGES -->
     <!-- RIGHT COLUMN: TOP LANGUAGES -->
     <g transform="translate(410, 5)">
       <text x="0" y="15" class="title">Top Languages (System Config)</text>
@@ -99,17 +100,17 @@
       <!-- Python -->
       <g transform="translate(0, 52)">
         <text x="0" y="13" class="label" font-weight="bold">Python</text>
-        <text x="290" y="13" class="value">99.66%</text>
+        <text x="290" y="13" class="value">68.05%</text>
         <rect x="0" y="24" width="320" height="8" class="progress-bg" />
-        <rect x="0" y="24" width="318.9" height="8" class="progress-fill-python" />
+        <rect x="0" y="24" width="217.8" height="8" class="progress-fill-python" />
       </g>
 
-      <!-- Makefile -->
+      <!-- JavaScript -->
       <g transform="translate(0, 108)">
-        <text x="0" y="13" class="label" font-weight="bold">Makefile</text>
-        <text x="290" y="13" class="value">0.34%</text>
+        <text x="0" y="13" class="label" font-weight="bold">JavaScript</text>
+        <text x="290" y="13" class="value">31.95%</text>
         <rect x="0" y="24" width="320" height="8" class="progress-bg" />
-        <rect x="0" y="24" width="1.1" height="8" class="progress-fill-makefile" />
+        <rect x="0" y="24" width="102.2" height="8" style="fill: #f1e05a; rx: 3px;" />
       </g>
     </g>
   </g>
